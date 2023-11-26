@@ -3,13 +3,13 @@
 This is a backend application for managing YouTube subscribers using MongoDB and Node.js. The application provides RESTful API endpoints for managing subscribers, including 
 retrieving a list of subscribers, adding a new subscriber, and updating subscriber information.
 
-# Deployment link:
+## Deployment link:
 https://backend-project-3qqx.onrender.com/
 
-# To run on local host:
+## To run on local host:
 http://localhost:3000
 
-# Installation
+## Installation
 To run the YouTube Subscriber Backend, follow these steps:
 Clone the repository:
 https://github.com/adity02/Youtube-Subscriber-Backend-.git
@@ -35,11 +35,11 @@ The following are the available API endpoints for managing subscribers:
 Endpoint: GET /subscribers
 Description: Retrieves a list of all subscribers.
 Response: An array of subscriber objects.
-# Subscriber by ID
+## Subscriber by ID
 Endpoint: GET /subscribers/:id
 Description: Retrieves a single subscriber by ID.
 Response: The subscriber object with the specified ID.
-# Add Subscriber
+## Add Subscriber
 Endpoint: POST /subscribers
 Description: Adds a new subscriber.
 Request Body: JSON object with name and channel fields.
