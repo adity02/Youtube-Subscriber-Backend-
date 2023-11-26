@@ -31,7 +31,7 @@ The server will start running at the specified port, and you can now make reques
 # API Endpoints
 The following are the available API endpoints for managing subscribers:
 
-# List of Subscribers
+## List of Subscribers
 Endpoint: GET /subscribers
 Description: Retrieves a list of all subscribers.
 Response: An array of subscriber objects.
