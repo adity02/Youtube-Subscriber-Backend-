@@ -1,0 +1,10 @@
+#dependencies
+
+/node_modules
+
+/coverage
+/mochawesome-report
+
+#misc
+.env
+.nyc_output
