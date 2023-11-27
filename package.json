@@ -7,7 +7,7 @@
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
     "start": "node src/index.js",
     "createDB": "node src/createDatabase.js",
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "mochawesome": "6.1.1",
+    "mongodb": "^6.3.0",
     "mongoose": "^5.10.15"
   },
   "devDependencies": {
