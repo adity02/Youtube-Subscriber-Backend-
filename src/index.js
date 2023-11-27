@@ -18,11 +18,11 @@ app.use(express.urlencoded({ extended: false }));
 
 // Connect to MongoDB using Mongoose
 const DATABASE_URL = process.env.DATABASE_URI;
-mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true , dbName:"subscribers"});
+mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
 
 // If an error ccurs during connection, handle and log the error
-db.on('error', (err) => console.log(err))
+ db.on('error', (err) => console.log(err))
 
 // If the connection is successful, log a success message
 db.once('open', () => console.log('connected to database'))
